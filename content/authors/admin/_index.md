@@ -13,7 +13,9 @@ highlight_name: no
 Interests:
 - Generative AI for Video & 3D
 - Multimodal LLM
-- Vision-and-Language Pre-training
+- 3D Scene Understanding
+- On-device Machine Learning
+
 organizations:
 - name: Apple
   url: https://www.apple.com
