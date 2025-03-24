@@ -32,10 +32,7 @@ experience:
     date_start: '2017-09-25'
     date_end: ''
     description: |2-
-      * working on diffusion model training and generative AI with a focus on video/3D
-      * worked on Apple Object Capture, 3D object detection and segmentation and 3D scene understanding
-      * worked on Apple FaceID, deep learning model inference acceleration (compression, quantization, mixed precision)
-
+      Deep Learning Research Engineer @ [Video Engineering](https://www.apple.com/apple-vision-pro/), working on multimodal LLM and generative AI with a focus on video and 3D content generation.
 
 
   - title: Research Intern, Computer Vision
