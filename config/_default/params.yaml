@@ -15,23 +15,23 @@ font_size: L
 site_type: Person
 local_business_type: ''
 org_name: ''
-description: 'Shilaan Alzahawi personal website'
-twitter: 'https://twitter.com/shilaan01'
+description: 'Chen Huang personal website'
+twitter: 'https://x.com/chenhuang_me'
 
 # Contact (edit or remove options as required)
 
-email: shilaan@stanford.edu
-address:
-  city: Palo Alto
-  region: CA
-  postcode: '94304'
-  country: United States
-  country_code: US
-contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: Find me on Twitter
-    link: 'https://twitter.com/shilaan01'
+# email: shilaan@stanford.edu
+# address:
+#   city: Palo Alto
+#   region: CA
+#   postcode: '94304'
+#   country: United States
+#   country_code: US
+# contact_links:
+#   - icon: twitter
+#     icon_pack: fab
+#     name: Find me on Twitter
+#     link: 'https://twitter.com/shilaan01'
 
 # Site header
 

@@ -8,7 +8,7 @@ education:
   - course: Bachelor in Electrical Engineering
     institution: Beihang University
 
-email: shilaan@stanford.edu
+email: huangchen.buaa@gmail.com
 highlight_name: no
 Interests:
 - Generative AI for Video & 3D
@@ -16,7 +16,7 @@ Interests:
 - Vision-and-Language Pre-training
 organizations:
 - name: Apple
-  url: https://machinelearning.apple.com
+  url: https://www.apple.com
 role: Deep Learning Research Engineer
 social:
 - icon: envelope
@@ -33,7 +33,7 @@ social:
   link: https://scholar.google.com/citations?user=nU-3AcUAAAAJ&hl=en
 - icon: linkedin
   icon_pack: fab
-  link: https://www.instagram.com/chenhuang.me/
+  link: https://www.linkedin.com/in/chuang5/
 - icon: instagram
   icon_pack: fab
   link: https://www.instagram.com/chenhuang.me/
