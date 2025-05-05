@@ -12,7 +12,7 @@ image:
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *2025 International Conference on Machine Learning*"
+publication: "*International Conference on Machine Learning 2025*"
 publication_short: "ICML 2025"
 
 title: 'Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention'

@@ -67,12 +67,19 @@
       
       {{/* Add publication venue for publications on a new line with larger font */}}
       {{ if eq $item.Type "publication" }}
-        {{ with $item.Params.publication_short }}
-          <div style="margin-top: 6px; font-size: 1.1em; font-weight: 600; color: #0366d6; font-style: italic;">{{ . }}</div>
-        {{ else }}
-          {{ with $item.Params.publication }}
-            <div style="margin-top: 6px; font-size: 1.1em; font-weight: 600; color: #0366d6; font-style: italic;">{{ . | markdownify }}</div>
-          {{ end }}
+        {{ if and $item.Params.publication $item.Params.publication_short }}
+          <div style="margin-top: 6px; font-size: 1.1em; font-weight: 600; font-style: italic;">
+            <span>{{ $item.Params.publication | markdownify }}</span>
+            <span style="color: #8b0000;"> ({{ $item.Params.publication_short }})</span>
+          </div>
+        {{ else if $item.Params.publication }}
+          <div style="margin-top: 6px; font-size: 1.1em; font-weight: 600; font-style: italic;">
+            {{ $item.Params.publication | markdownify }}
+          </div>
+        {{ else if $item.Params.publication_short }}
+          <div style="margin-top: 6px; font-size: 1.1em; font-weight: 600; color: #8b0000; font-style: italic;">
+            {{ $item.Params.publication_short }}
+          </div>
         {{ end }}
       {{ end }}
     </div>
