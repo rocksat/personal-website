@@ -5,6 +5,16 @@ image:
   caption: 
   focal_point: Smart
 
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["1"]
+
+# Publication name and optional abbreviated publication name.
+publication: "In *2025 International Conference on Machine Learning*"
+publication_short: "ICML 2025"
+
 title: 'Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention'
 authors:
 - Dejia Xu

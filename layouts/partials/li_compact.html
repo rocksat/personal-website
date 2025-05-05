@@ -60,21 +60,18 @@
       {{ if and $show_authors_only $item.Params.authors }}
       <div>
         {{ partial "page_metadata_authors" $item }}
-        <div style="margin-top: 5px; font-size: 1.1em; font-weight: 500;">CVPR 2025</div>
       </div>
       {{ else if not $show_authors_only }}
         {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
       {{ end }}
-
-      {{/* Add publication venue for publications */}}
+      
+      {{/* Add publication venue for publications on a new line with larger font */}}
       {{ if eq $item.Type "publication" }}
         {{ with $item.Params.publication_short }}
-          <span class="middot-divider"></span>
-          <span>{{ . }}</span>
+          <div style="margin-top: 6px; font-size: 1.1em; font-weight: 600; color: #000000; font-style: italic;">{{ . }}</div>
         {{ else }}
           {{ with $item.Params.publication }}
-            <span class="middot-divider"></span>
-            <span>{{ . | markdownify }}</span>
+            <div style="margin-top: 6px; font-size: 1.1em; font-weight: 600; color: #000000; font-style: italic;">{{ . | markdownify }}</div>
           {{ end }}
         {{ end }}
       {{ end }}
@@ -96,4 +93,4 @@
     </a>
     {{end}}
   </div>
-</div>
+</div> 
